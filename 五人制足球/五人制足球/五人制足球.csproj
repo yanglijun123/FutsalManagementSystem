@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DE7A0A2-E3F4-4C7A-B3AB-A91EF510B675}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>五人制足球</RootNamespace>
+    <AssemblyName>五人制足球</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="addmatch.aspx" />
+    <Content Include="addteamscore.aspx" />
+    <Content Include="AllTeam.aspx" />
+    <Content Include="courtmanage.aspx" />
+    <Content Include="css\all.css" />
+    <Content Include="css\jiaodiantu3.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\LegueStanding---Team.css" />
+    <Content Include="css\Login.css" />
+    <Content Include="css\MainPage.css" />
+    <Content Include="css\ScheduleArrange.css" />
+    <Content Include="css\TopScorer.css" />
+    <Content Include="css\zxcd.css" />
+    <Content Include="css\zzsc.css" />
+    <Content Include="delete.jpg" />
+    <Content Include="editmatch.aspx" />
+    <Content Include="images\calendar.gif" />
+    <Content Include="images\navbg.gif" />
+    <Content Include="images\navbg_a.gif" />
+    <Content Include="images\nav_xian.gif" />
+    <Content Include="img\1.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\4.jpg" />
+    <Content Include="img\5.jpg" />
+    <Content Include="img\6.jpg" />
+    <Content Include="img\7.jpg" />
+    <Content Include="js\jquery-1.8.4.min.js" />
+    <Content Include="js\jquery-2.0.0.min.js" />
+    <Content Include="js\jquery-ui-datepicker.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.min2.js" />
+    <Content Include="js\main.js" />
+    <Content Include="Judgermanage.aspx" />
+    <Content Include="LeagueStanding---Team.aspx" />
+    <Content Include="LeagueStanding--Teamscore.aspx" />
+    <Content Include="LeagueStanding.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="MainPage.aspx" />
+    <Content Include="matchmanage.aspx" />
+    <Content Include="Pictures\background.jpg" />
+    <Content Include="PlayerAdd.aspx" />
+    <Content Include="PlayerEdit.aspx" />
+    <Content Include="playerscore.aspx" />
+    <Content Include="playerscoreedit.aspx" />
+    <Content Include="redyellowcard.aspx" />
+    <Content Include="redyellowedit.aspx" />
+    <Content Include="redyellowshow.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="ScheduleArrange.aspx" />
+    <Content Include="scoremanage.aspx" />
+    <Content Include="teammanage.aspx" />
+    <Content Include="teamscoreedit.aspx" />
+    <Content Include="teamupdate.aspx" />
+    <Content Include="timekeeper.aspx" />
+    <Content Include="TopScorer.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addmatch.aspx.cs">
+      <DependentUpon>addmatch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addmatch.aspx.designer.cs">
+      <DependentUpon>addmatch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addteamscore.aspx.cs">
+      <DependentUpon>addteamscore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addteamscore.aspx.designer.cs">
+      <DependentUpon>addteamscore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllTeam.aspx.cs">
+      <DependentUpon>AllTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllTeam.aspx.designer.cs">
+      <DependentUpon>AllTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="courtmanage.aspx.cs">
+      <DependentUpon>courtmanage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="courtmanage.aspx.designer.cs">
+      <DependentUpon>courtmanage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataBaseAccess.cs" />
+    <Compile Include="editmatch.aspx.cs">
+      <DependentUpon>editmatch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editmatch.aspx.designer.cs">
+      <DependentUpon>editmatch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Judgermanage.aspx.cs">
+      <DependentUpon>Judgermanage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Judgermanage.aspx.designer.cs">
+      <DependentUpon>Judgermanage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LeagueStanding---Team.aspx.cs">
+      <DependentUpon>LeagueStanding---Team.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LeagueStanding---Team.aspx.designer.cs">
+      <DependentUpon>LeagueStanding---Team.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LeagueStanding--Teamscore.aspx.cs">
+      <DependentUpon>LeagueStanding--Teamscore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LeagueStanding--Teamscore.aspx.designer.cs">
+      <DependentUpon>LeagueStanding--Teamscore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LeagueStanding.aspx.cs">
+      <DependentUpon>LeagueStanding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LeagueStanding.aspx.designer.cs">
+      <DependentUpon>LeagueStanding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainPage.aspx.designer.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="matchmanage.aspx.cs">
+      <DependentUpon>matchmanage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="matchmanage.aspx.designer.cs">
+      <DependentUpon>matchmanage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerAdd.aspx.cs">
+      <DependentUpon>PlayerAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlayerAdd.aspx.designer.cs">
+      <DependentUpon>PlayerAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerEdit.aspx.cs">
+      <DependentUpon>PlayerEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlayerEdit.aspx.designer.cs">
+      <DependentUpon>PlayerEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="playerscore.aspx.cs">
+      <DependentUpon>playerscore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="playerscore.aspx.designer.cs">
+      <DependentUpon>playerscore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="playerscoreedit.aspx.cs">
+      <DependentUpon>playerscoreedit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="playerscoreedit.aspx.designer.cs">
+      <DependentUpon>playerscoreedit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="redyellowcard.aspx.cs">
+      <DependentUpon>redyellowcard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="redyellowcard.aspx.designer.cs">
+      <DependentUpon>redyellowcard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="redyellowedit.aspx.cs">
+      <DependentUpon>redyellowedit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="redyellowedit.aspx.designer.cs">
+      <DependentUpon>redyellowedit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="redyellowshow.aspx.cs">
+      <DependentUpon>redyellowshow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="redyellowshow.aspx.designer.cs">
+      <DependentUpon>redyellowshow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleArrange.aspx.cs">
+      <DependentUpon>ScheduleArrange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ScheduleArrange.aspx.designer.cs">
+      <DependentUpon>ScheduleArrange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="scoremanage.aspx.cs">
+      <DependentUpon>scoremanage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="scoremanage.aspx.designer.cs">
+      <DependentUpon>scoremanage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teammanage.aspx.cs">
+      <DependentUpon>teammanage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teammanage.aspx.designer.cs">
+      <DependentUpon>teammanage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teamscoreedit.aspx.cs">
+      <DependentUpon>teamscoreedit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teamscoreedit.aspx.designer.cs">
+      <DependentUpon>teamscoreedit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teamupdate.aspx.cs">
+      <DependentUpon>teamupdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teamupdate.aspx.designer.cs">
+      <DependentUpon>teamupdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="timekeeper.aspx.cs">
+      <DependentUpon>timekeeper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="timekeeper.aspx.designer.cs">
+      <DependentUpon>timekeeper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TopScorer.aspx.cs">
+      <DependentUpon>TopScorer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TopScorer.aspx.designer.cs">
+      <DependentUpon>TopScorer.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1036/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

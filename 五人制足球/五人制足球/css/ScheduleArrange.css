@@ -1,0 +1,40 @@
+﻿body {
+}
+.tb1
+{
+    height:100px;
+    /*background-color:blue;*/
+    line-height:100px;
+    text-align:right;
+    font-family:微软雅黑;
+    font-size:18px;
+}
+.DDL1
+{
+    height:25px;
+    width:150px;
+    text-align:center;
+    font-family:微软雅黑;
+    font-size:12px;
+}
+.compitioncontent
+{
+    margin-top:10px;
+    height:420px;
+    border-radius:5px;
+    border:1px solid #aaa;
+}
+#GridView3
+{
+    margin:50px auto;
+    /*text-align:center;*/
+}
+.pagetitle
+{
+    width:580px;
+    margin-left:20px;
+    height:40px;
+    border-bottom:1px solid #036;
+    line-height:40px;
+    font-family:"楷体";
+}

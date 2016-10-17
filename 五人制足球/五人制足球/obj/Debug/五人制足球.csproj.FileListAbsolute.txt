@@ -1,0 +1,10 @@
+C:\Users\yanglj\Desktop\五人制足球\五人制足球\bin\五人制足球.dll
+C:\Users\yanglj\Desktop\五人制足球\五人制足球\bin\五人制足球.pdb
+C:\Users\yanglj\Desktop\五人制足球\五人制足球\obj\Debug\五人制足球.csprojResolveAssemblyReference.cache
+C:\Users\yanglj\Desktop\五人制足球\五人制足球\obj\Debug\五人制足球.dll
+C:\Users\yanglj\Desktop\五人制足球\五人制足球\obj\Debug\五人制足球.pdb
+C:\Users\yanglj\Desktop\C#课程设计\五人制足球\五人制足球\bin\五人制足球.dll
+C:\Users\yanglj\Desktop\C#课程设计\五人制足球\五人制足球\bin\五人制足球.pdb
+C:\Users\yanglj\Desktop\C#课程设计\五人制足球\五人制足球\obj\Debug\五人制足球.csprojResolveAssemblyReference.cache
+C:\Users\yanglj\Desktop\C#课程设计\五人制足球\五人制足球\obj\Debug\五人制足球.dll
+C:\Users\yanglj\Desktop\C#课程设计\五人制足球\五人制足球\obj\Debug\五人制足球.pdb

@@ -1,0 +1,16 @@
+﻿body {
+}
+.leftcontent
+{
+    border-radius:5px;
+    border:1px solid #aaa;
+    margin-top:10px;
+    height:420px;
+}
+.rightcontent
+{
+    border-radius:5px;
+    border:1px solid #aaa;
+    margin-top:10px;
+    height:420px;
+}

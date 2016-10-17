@@ -1,0 +1,32 @@
+/*导航下拉菜单*/
+*{ margin:0 auto; padding:0px;}
+img{border:0px; margin:0px; padding:0px}
+ul,li,p{ list-style:none; margin:0px; padding:0px;}
+a{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#555; margin:0px; padding:0px; text-decoration:none}
+a:hover{ color:#cc0000; text-decoration:none}
+.nav{
+	position: absolute;
+	width: 948px;
+	height: 40px;
+	background:url(../images/navbg.gif) repeat-x;
+    /*margin:10px auto;*/
+}
+.nav li{
+	position: relative;
+	float: left;
+}
+.nav .bg{ background:url(../images/nav_xian.gif) no-repeat; width:2px; height:40px; padding:0px; display:block;}
+.nav li a{
+	line-height: 40px;
+	padding:0px 21px;
+	float:left;
+	height:40px;
+	color:#fff;
+	font-size:14px;
+    width:114px;
+    text-align:center;
+}
+.nav li a:hover {
+    background: url(../images/navbg_a.gif) repeat-x; color:#fff;
+}
+.nav li:hover a{ background: url(../images/navbg_a.gif) repeat-x; color:#fff;}

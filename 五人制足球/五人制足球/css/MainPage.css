@@ -1,0 +1,105 @@
+﻿body 
+{
+     /*background-image:url('../Pictures/background.jpg');*/
+}
+.title
+{
+margin:0 auto;
+width:950px;
+height:80px;
+border-bottom:5px solid white;
+/*background-color:blue;*/
+}
+/*导航栏*/
+.titlename
+{
+    margin: 5px auto;
+    width: 950px;
+    height: 30px;
+    /*background-color: #d64a3d;*/
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    overflow: hidden;
+    /*background-color:red;*/
+}
+.content
+{
+    margin:10px auto;
+    width:950px;
+    height:415px;
+    /*height:500px;/*高度1300px*/*/
+}
+/*左边部分div*/
+.leftcontent
+{
+    padding-left:0px;
+    background-color:#ffffff;
+    width:300px;
+    float:left;
+}
+/*射手榜*/
+.PlayerRangking
+{
+    /*background:#494949;*/
+    border-radius:5px;
+    border:1px solid #aaa;
+    margin-top:10px;
+}
+/*射手榜title*/
+.RangkingTitle
+{
+    height:40px;
+    padding-left:10px;
+    /*color:#ffffff;*/
+    line-height:40px;
+}
+/*射手榜排名内容*/
+.RankingTable
+{
+    padding-left:10px;
+    padding-bottom:10px;
+    /*padding-right:5px;*/
+}
+/*球队积分榜title*/
+.teamtitle
+{
+    height:40px;
+    padding-left:10px;
+    /*color:#ffffff;*/
+    line-height:40px;
+}
+/*球队积分榜内容表*/
+.teamtable
+{
+    padding-left:10px;
+    margin-bottom:10px;
+}
+/*右边部分大div*/
+.rightcontent
+{
+    /*padding-right:0px;*/
+    /*background:#ffffff;*/
+    /*background-color:red;*/
+    width:630px;
+    float:right;
+}
+/*底部*/
+.footer
+{
+    width:960px;
+    height:auto;
+    /*background-color:red;*/
+    background-color:#528400;
+    text-align:center;
+    margin:0 auto;
+    line-height:80px;
+    clear:both;
+}
+.compitioncontent
+{
+    margin-top:10px;
+    height:420px;
+    border-radius:5px;
+    border:1px solid #aaa;
+}
